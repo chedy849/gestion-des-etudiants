@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Gestetudiant" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Gestetudiant" parent="Base.Theme.Gestetudiant" />
+
+    <style name="RotateAnimation" parent="@android:style/Animation">
+        <item name="android:interpolator">@android:anim/linear_interpolator</item>
+        <item name="android:duration">500</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.App.SearchBar" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+</resources>

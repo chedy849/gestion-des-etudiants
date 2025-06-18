@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Item de recherche -->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <!-- Menu déroulant -->
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/ic_more_vert"
+        android:title="@string/more"
+        app:showAsAction="always">
+        <menu>
+            <!-- Rafraîchir -->
+            <item
+                android:id="@+id/action_refresh"
+                android:icon="@drawable/ic_refresh"
+                android:title="@string/refresh" />
+
+            <!-- Paramètres -->
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/settings" />
+
+            <!-- A propos -->
+            <item
+                android:id="@+id/action_about"
+                android:icon="@drawable/ic_info"
+                android:title="@string/about" />
+        </menu>
+    </item>
+</menu>
